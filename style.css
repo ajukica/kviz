@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+ 
+
+* { 
+    box-sizing: border-box;
+}
+
+body{
+    background: #4b79a1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b79a1, #283e51); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b79a1, #283e51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.kviz-container {
+    background-color: #fff;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(180, 26, 26, 0.1);
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.kviz-header { 
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1px;
+   align-items: center;
+   margin-left: 10%;
+}
+
+
+
+ul { 
+    list-style-type: none;
+    padding: none;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    
+}
+
+ul li label {
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+
+button {
+    background-color:rgb(56, 46, 46);
+    display: block;
+    color:white;
+    width: 100%;
+    padding: 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+}
+
+button:hover {
+    background-color: rgb(64, 120, 184);
+}
